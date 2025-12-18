@@ -45,5 +45,12 @@ public class Skill {
         return result;
 
     }
+
+    public boolean equals(Skill s){
+
+        if(s.getName() == this.name && s.getType() == this.type) return true;
+        else return false;
+
+    }
     
 }
